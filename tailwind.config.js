@@ -19,6 +19,23 @@ module.exports = {
                 danger: '#ff5252',
                 primary: '#2196f3',
             }, 
+            height: {
+                '128': '32rem',
+                '192': '48rem',
+                '256': '64rem',
+            },
+            width: {
+                '128': '32rem',
+                '192': '48rem',
+                '256': '64rem',
+            },
+            maxWidth: {
+                '128': '32rem',
+                '192': '48rem',
+                '256': '64rem',
+            },
+        
+            
         },
     },
 
