@@ -1,16 +1,6 @@
 <div>
 
-    {{-- HEADER --}}
-    <div class='flex flex-wrap justify-between gap-4 pb-4'>
-        <h1 class='text-2xl'>Compras <i wire:loading class='fas fa-spinner animate-spin text-2xl'></i> </h1>
-       @can('admin.purchases.create')    
-            <a href="{{ route('admin.purchases.create') }}" >
-                <x-jet-button>
-                    Crear Compra
-                </x-jet-button>
-            </a>
-       @endcan
-    </div> 
+   
     {{--FILTROS  --}}
     <div class='pb-4 flex flex-wrap justify-between gap-x-4 items-center'>
         {{-- BUSCADOR --}}

@@ -62,3 +62,8 @@
   .slider.round:before {
     border-radius: 50%;
   }
+
+  .titlePage {
+    font-size: 4.5em;
+    color: #787b80;
+  }
